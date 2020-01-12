@@ -39,6 +39,7 @@ public class Bird : MonoBehaviour
     //When the bird collides with something, pipe, ground etc
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        rb2d.velocity = Vector2.zero;
         isDead = true; // so the bird cant be clicked and move upward anymore
         anim.SetTrigger ("Die");
         GameControl.instance.BirdDied();
