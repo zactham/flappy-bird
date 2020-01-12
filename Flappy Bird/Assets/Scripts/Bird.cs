@@ -41,5 +41,6 @@ public class Bird : MonoBehaviour
     {
         isDead = true; // so the bird cant be clicked and move upward anymore
         anim.SetTrigger ("Die");
+        GameControl.instance.BirdDied();
     }
 }
