@@ -492,6 +492,7 @@ MonoBehaviour:
   gameOverText: {fileID: 1495061212}
   gameOver: 0
   scrollSpeed: -1.5
+  scoreText: {fileID: 1360272323}
 --- !u!4 &748886150
 Transform:
   m_ObjectHideFlags: 0
