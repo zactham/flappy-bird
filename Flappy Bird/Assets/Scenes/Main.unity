@@ -470,6 +470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 748886150}
   - component: {fileID: 748886149}
+  - component: {fileID: 748886151}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -507,6 +508,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &748886151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748886148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231a742a6a5e7eb408bb43b6cd50975c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columnPoolSize: 5
+  columnPrefab: {fileID: 8332800553928195458, guid: 5230c21dd7f0f3f4992cf6af0bffc2a2,
+    type: 3}
+  spawnRate: 4
+  columnMin: -2
+  columnMax: 3.5
 --- !u!1 &1027050967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,7 +1223,7 @@ Transform:
   m_GameObject: {fileID: 2142487842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
